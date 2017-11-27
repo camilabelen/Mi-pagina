@@ -16,6 +16,10 @@ header li{
 	padding: 0 10px;
 }
 
+header .fa-bars{
+	display: none;
+}
+
 .startBootstrap{
 	text-align: center;
 }
@@ -23,7 +27,7 @@ header li{
 .home{
 	margin-top:0;
 	background-image: url(../images/banner_osoaparatoso_primavera.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-position: 0 -50px;
 	background-repeat: no-repeat;
 	height: 500px;

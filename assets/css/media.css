@@ -1,7 +1,37 @@
+
 @media (max-width: 767px){
 		/* For mobile phones: */
-		[class*="col-"] {
-				max-width: 100%;
-				flex: none;
-		}
+	[class*="col-"] {
+			max-width: 100%;
+			flex: none;
+	}
+
+	header{
+		height: 30px;
+	}
+
+	header li{
+		display: none;
+	}
+
+	header .fa-bars{
+		display: block;
+	}
+
+	.home h1{
+		font-size: 30px;
+	}
+	
+	.home{
+		height: 100px;
+		background-position: 0;
+	}
+	
+	article{
+		margin:0;
+	}
+	
+	article:last-child{
+		margin: 20px;
+	}
 }
