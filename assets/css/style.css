@@ -1,0 +1,39 @@
+body{
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-color: #eeffdd;
+}
+
+header{
+	background-color: #6ee1b5;
+	color: #FFF;
+	font-weight: 600;
+	padding: 10px;
+}
+
+header li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+
+.home{
+	margin-top:0;
+	background-image: url(../images/banner_osoaparatoso_primavera.jpg);
+	background-size: cover;
+	background-position: 0 -90px;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+.products img{
+	width: 100%;
+}
+
+footer{
+	background-color:  #6ee1b5;
+	color: #FFF;
+	font-weight: 600;
+	text-align: center;
+}
