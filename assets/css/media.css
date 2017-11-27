@@ -1,0 +1,7 @@
+@media (max-width: 767px){
+		/* For mobile phones: */
+		[class*="col-"] {
+				max-width: 100%;
+				flex: none;
+		}
+}
