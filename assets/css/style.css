@@ -10,20 +10,25 @@ header{
 	padding: 10px;
 }
 
+/*menu*/
+
 header li{
 	list-style: none;
 	display: inline-block;
 	padding: 0 10px;
 }
 
-header .fa-bars{
+/*icono menu*/
+header div .fa-bars{
 	display: none;
 }
 
+/*texto start Bootstrap*/
 .startBootstrap{
 	text-align: center;
 }
 
+/*background banner*/
 .home{
 	margin-top:0;
 	background-image: url(../images/banner_osoaparatoso_primavera.jpg);
@@ -33,6 +38,7 @@ header .fa-bars{
 	height: 500px;
 }
 
+/*titulo tienda*/
 .home h1{
 	text-align: center;
 	font-size: 5em;
@@ -41,6 +47,7 @@ header .fa-bars{
 	font-family: 'Kalam', cursive;
 }
 
+/*que hacemos- contacto- productos*/
 article{
 	margin-left: 10%;
 	color: #636363;
@@ -52,6 +59,7 @@ article h3{
 	color: #333333;
 }
 
+/*botones*/
 .action, .more{
 	border: none;
 	background-color: #FEC8D4;
@@ -66,6 +74,7 @@ article h3{
 	margin: 10px;
 }
 
+/*contacto*/
 .contact{
 	margin-left: 5%;
 }
@@ -74,6 +83,7 @@ article h3{
 	font-weight: 600;
 }
 
+/*productos*/
 .products img{
 	width: 100%;
 	border-radius: 8px 8px 0 0;
@@ -98,6 +108,7 @@ article h3{
 	padding: 10px;
 }
 
+/*copyright*/
 footer{
 	background-color: #6ee1b5;
 	color: #FFF;
