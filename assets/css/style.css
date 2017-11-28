@@ -36,8 +36,9 @@ header .fa-bars{
 .home h1{
 	text-align: center;
 	font-size: 5em;
-	color: #636363;
-	margin-top: 20%;	
+	color: #C9A750;
+	margin: -5px;	
+	font-family: 'Kalam', cursive;
 }
 
 article{
@@ -53,7 +54,7 @@ article h3{
 
 .action, .more{
 	border: none;
-	background-color: #e3adfe;
+	background-color: #FEC8D4;
 	padding: 12px;
 	border-radius: 5px;
 	font-size: 0.9em;
