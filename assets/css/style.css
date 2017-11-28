@@ -19,8 +19,12 @@ header li{
 }
 
 /*icono menu*/
-header div .fa-bars{
-	display: none;
+header .startBootstrap .fa-bars{
+	visibility: hidden;
+	text-align: right;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	padding: 2px 4px;
 }
 
 /*texto start Bootstrap*/

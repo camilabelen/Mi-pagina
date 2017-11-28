@@ -7,7 +7,8 @@
 	}
 
 	header{
-		height: 35px;
+		height: 45px;
+		margin-top: -20px;
 	}
 
 	.startBootstrap{
@@ -16,11 +17,12 @@
 	}
 
 	header li{
-		display: none;
+		visibility: hidden;
 	}
 
-	header div .fa-bars{
-		display: inline-block;
+	header .startBootstrap .fa-bars{
+		visibility: visible;
+		margin-left: 50%;
 	}
 
 	.home h1{
